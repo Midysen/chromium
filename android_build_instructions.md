@@ -9,4 +9,4 @@ Building the Android client on Windows or Mac is not supported and doesn't work.
 # Install depot_tools
 - Clone the depot_tools repository:
 
-    git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
+    ```git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git```
