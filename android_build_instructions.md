@@ -21,4 +21,8 @@ Building the Android client on Windows or Mac is not supported and doesn't work.
 - Create a chromium directory for the checkout and change to it (you can call this whatever you like and put it wherever you like, as long as the full path has no spaces):
 
     ```mkdir ~/chromium && cd ~/chromium```
+    
     ```fetch --nohooks android```
+- When fetch completes, it will have created a hidden .gclient file and a directory called src in the working directory. The remaining instructions assume you have switched to the src director
+
+   ``` cd src  ```
