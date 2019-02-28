@@ -45,4 +45,4 @@ Building the Android client on Windows or Mac is not supported and doesn't work.
 # Build Chromium
 - Build Chromium with Ninja using the command:
 
-   ```autoninja -C out/Default chrome_public_apk```
+   ```ninja -C out/Default chrome_public_apk```
