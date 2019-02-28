@@ -32,3 +32,17 @@ Building the Android client on Windows or Mac is not supported and doesn't work.
    ``` build/install-build-deps-android.sh```
    
   to get all of the dependencies you need to build on Linux, plus all of the Android-specific dependencies (you need some of     the regular Linux dependencies because an Android build includes a bunch of the Linux tools and utilities).
+  
+# Run the hooks
+- Once you've run install-build-deps at least once, you can now run the Chromium-specific hooks, which will download additional binaries and other things you might need:
+
+   gclient runhooks
+# Setting up the build
+- Chromium uses Ninja as its main build tool along with a tool called GN to generate .ninja files. You can create any number of build directories with different configurations. To create a build directory which builds Chrome for Android, run gn args out/Default and edit the file to contain the following arguments:
+
+   ``` gn gen --args='target_os="android"' out/Default ```
+   
+# Build Chromium
+- Build Chromium with Ninja using the command:
+
+   autoninja -C out/Default chrome_public_apk
