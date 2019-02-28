@@ -16,5 +16,5 @@ Building the Android client on Windows or Mac is not supported and doesn't work.
    - 注意：此处的/path/to/是指depot_tools所在的路径
 # Get the code
 - Create a chromium directory for the checkout and change to it (you can call this whatever you like and put it wherever you like, as long as the full path has no spaces):
-``` mkdir ~/chromium && cd ~/chromium
-    fetch --nohooks android```
+    mkdir ~/chromium && cd ~/chromium
+    fetch --nohooks android
