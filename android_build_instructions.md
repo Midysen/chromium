@@ -30,4 +30,5 @@ Building the Android client on Windows or Mac is not supported and doesn't work.
 - Once you have checked out the code, run
 
    ``` build/install-build-deps-android.sh```
-  to get all of the dependencies you need to build on Linux, plus all of the Android-specific dependencies (you need some of the regular Linux dependencies because an Android build includes a bunch of the Linux tools and utilities).
+   
+  to get all of the dependencies you need to build on Linux, plus all of the Android-specific dependencies (you need some of     the regular Linux dependencies because an Android build includes a bunch of the Linux tools and utilities).
