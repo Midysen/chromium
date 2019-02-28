@@ -13,7 +13,7 @@ Building the Android client on Windows or Mac is not supported and doesn't work.
     
 - Add depot_tools to the end of your PATH (you will probably want to put this in your ~/.bashrc). Assuming you cloned depot_tools to /path/to/depot_tools:
 
-```export PATH="$PATH:/path/to/depot_tools"```
+    ```export PATH="$PATH:/path/to/depot_tools"```
 
    - 注意：此处的/path/to/是指depot_tools所在的路径
    
@@ -21,5 +21,4 @@ Building the Android client on Windows or Mac is not supported and doesn't work.
 - Create a chromium directory for the checkout and change to it (you can call this whatever you like and put it wherever you like, as long as the full path has no spaces):
 
     ```mkdir ~/chromium && cd ~/chromium```
-    
     ```fetch --nohooks android```
