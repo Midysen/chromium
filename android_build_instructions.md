@@ -7,6 +7,7 @@ Most development is done on Ubuntu. Other distros may or may not work; see the L
 Building the Android client on Windows or Mac is not supported and doesn't work.
 
 # Install depot_tools
+depot_tools是Google官方提供的一个用来checkout、compile、run和submit的工具集，可以帮助我们更好的学习和调试Chromium代码，因此我们先安装depot_tools。
 - Clone the depot_tools repository:
 
     ```git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git```
