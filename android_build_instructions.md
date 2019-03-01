@@ -40,7 +40,7 @@ Building the Android client on Windows or Mac is not supported and doesn't work.
 # Setting up the build
 - Chromium uses Ninja as its main build tool along with a tool called GN to generate .ninja files. You can create any number of build directories with different configurations. To create a build directory which builds Chrome for Android, run gn args out/Default and edit the file to contain the following arguments:
 
-   ``` gn gen --args='target_os="android"' out/Default ```
+   ``` gn gen --args='target_os="android" target_cpu="x64"' out/Default ```
    
 # Build Chromium
 - Build Chromium with Ninja using the command:
